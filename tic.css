@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.table {
+  /* border: */
+  max-width: 350px;
+  height: auto;
+}
+
+.cell {
+  height: 90px;
+  width: 90px;
+  /* padding: 10px; */
+  background-origin: content-box;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.left {
+  float: left;
+}
+
+.x {
+  background: url('assets/playX.png') center center no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.o {
+  background: url('assets/playO.png') center center no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+.t {
+  background: url('assets/playT.png') center center no-repeat;
+  background-size: 80%;
+  background-color: white;
+}
+
+p {
+  color: white;
+}
