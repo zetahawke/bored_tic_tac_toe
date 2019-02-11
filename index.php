@@ -1,1 +1,1 @@
-<?php include_once("tic.html"); ?>
+<?php header( 'Location: /tic.html' ) ;  ?>
